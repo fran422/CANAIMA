@@ -1,0 +1,6 @@
+
+ 1.- lo primero que hice fue un cd a /usr/share/canaima semilla
+ 2.- un ls y me copie la carpeta profile a mi ruta /var/opt/Cursoaslccs/franciscomartinez/canaima-semilla
+ 3.- desps edite el profile.conf con mis datos y la arquitectura
+ 4.- 
+

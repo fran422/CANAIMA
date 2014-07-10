@@ -1,0 +1,96 @@
+Actividad. Curso de Adminsitracion en Linux
+
+
+- Entrar como root, ejecutar
+
+history -c
+
+
+1-Crear un archivo Examen-(Número de la Cédula de Identidad) con los siguientes datos:
+-Nombre Completo
+-Cédula de Indentidad
+-Dirección de correo electrónico
+-Institución a la que pertenece
+
+5- Crear 5 archivos llamados y cambiar permisologia
+ -curso1.txt   ---RW-R-X  chmod -R 641 curso1.txt
+ 
+ -curso2.txt   RWX-W-RW-  chmod -R 726 curso2.txt
+
+ -curso3.txt   --X--X--X  chmod -R 111 curso3.txt
+
+ -curso4.txt   -W--W-RWX  chmod -R 227 curso4.txt
+
+ -curso5.txt   ---RW-R--  chmod -R 064 curso5.txt
+
+
+6-Como puedo visualizar las particiones del disco duro
+  = fdisk -l
+
+7-Como matamos un proceso del computador
+  =  kill -9 + ID del proceso  == kill -9 170 mate el proceso usb-storage
+8-Crear un carpeta llamada libreofficewriter. abrir el libreofficewriter buscar el proseso de libreoffice y lo guardan en un archivo a.txr.
+        == mkdir libreofficewriter , abri el writer y lo busque con ps -aux|grep libreofficewriter > a.txt
+            y de una vez guarde la busqueda en el a.txt
+
+9-Crear un carpeta llamada procesador
+	mkdir procesador
+       -guardar la busqueda en archivo llamado procesador.txt del tipo de computadora
+   == mkdir procesador == uname -a >procesador.txt
+
+10-Como configuras una interfaz de red con dhc
+
+ 
+
+11-Que sucede cuando ejecutas el
+comando: touch registros
+
+
+- Crea un archivo llamado registros
+
+
+	
+12-El comando: more examen
+
+- Despliega el contenido del archivo examen, una pantalla a la vez.
+
+
+13-crear un carpeta sl
+descargar el paquete fuente de sl, modificar el tren 
+con su nombre generar un nuevo paquete, e instalarlo
+
+	= esta en la carpeta 
+
+14-comando para listar redes inalambricas.
+  == con ifconfig listamos la conexion de red
+
+16- Como agregamos el usuario y gestionamos el cambio de contraseña
+ ==adduser + nommbre de usuario y alli nos va pedir que introduzcamos la contraseña para el usuario y otros datos en caso de crearlo y querer modificar la contraseña le damos passwd mas el nombre y modificamos la contraseña
+
+17-crear un carpeta canaima-semilla, copiar un sabor desde primera-base
+  llamarlo con el nombre de ustedes, editarlo todos los perfil personalizado.
+   subir dicha carpeta a github.
+   - agregar un txt, con los pasos para ejecutar la creacion de la .iso
+	
+
+18- donde se modifican los repositorios en debian, 
+   - cuales son los pasos para ejecutar un repositorio nuevo.
+	== /etc/apt/source.list de alli agarramos y descomentamos o agregamos uno nuevo y le damos aptitude update
+
+19- Las particiones de un disco fisico se nombran mediante el nombre de dispositivo y el
+número de partición:
+	== las partisiones se nombran dependiendo del tipo de disco por ejemplo si es un disco SATA se nombre sda y el numero de particion va pegado seria ejemplo sda1 sda2 dependiendo las particiones
+
+20- Como hago un repositorio con debmirror, comando.
+
+-----------
+21- Guardar el history en .txt para verificar todo lo anterior fue realizado por ti.
+
+ 
+
+22- crear un archivo permiso.txt y que los dueños sean root y usuario., ejecutar cat.
+ ----------------  
+	
+23- Como matar un procesos usando top.
+
+ == top nos muestra los procesos en tiempo real y lo matamos con un kill -9 + el id del proceso que nos muestra al usar el top

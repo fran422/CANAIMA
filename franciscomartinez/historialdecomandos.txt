@@ -1,0 +1,500 @@
+   93  cd /var/spool/apt-mirror/
+   94  ls
+   95  cd mirror/
+   96  ls
+   97  cd ..
+   98  ls
+   99  nano /etc/apt/mirror.list 
+  100  aptitude remuve --purge apt-mirror
+  101  aptitude remove --purge apt-mirror
+  102  aptitude search apt-mirror
+  103  aptitude insttal apt-mirror
+  104  aptitude install apt-mirror
+  105  nano /etc/apt/mirror.list 
+  106  apt-mirror
+  107  apt-mirror
+  108  apt-mirror
+  109  cat /proc/cpuinfo 
+  110  apt-mirror
+  111  halt 
+  112  cd /var/spool/apt-mirror/
+  113  ls
+  114  cd skel/
+  115  ls
+  116  cd ftp.us.debian.org/
+  117  ls
+  118  cd debian/
+  119  ls
+  120  cd dists/
+  121  ls
+  122  cd stable/
+  123  ls
+  124  cd /var/www/
+  125  ls
+  126  rm -r debian mirror
+  127  ls
+  128  ln -s /var/spool/apt-mirror/skel/ftp.us.debian.org/debian/
+  129  ls
+  130  ls -la
+  131  mkdir iso
+  132  cd iso/
+  133  aptitude install live-build
+  134  aptitude search live
+  135  cp /home/usuario/Control/Cursoaslccs/script.sh .
+  136  cd /home/usuario/Control/Cursoaslccs/
+  137  git pull
+  138  ls
+  139  cd
+  140  cp /home/usuario/Control/Cursoaslccs/scritp.sh  .
+  141  nano .
+  142  ls
+  143  cd /home/usuario/Control/Cursoaslccs/
+  144  cp /home/usuario/Control/Cursoaslccs/scritp.sh  .
+  145  ls
+  146  cp /home/usuario/Control/Cursoaslccs/scritp.sh .
+  147  cd iso
+  148  cd 
+  149  cd /home/usuario/
+  150  ls
+  151  cd iso/
+  152  cp /home/usuario/Control/Cursoaslccs/scritp.sh .
+  153  ls
+  154  nano scritp.sh 
+  155  script.sh
+  156  scritp.sh
+  157  ls -la
+  158  ls
+  159  nano scritp.sh 
+  160  nano
+  161  nano scritp.sh 
+  162  ls
+  163  scritp.sh
+  164  ls
+  165  rm scritp.sh 
+  166  cp /home/usuario/Control/Cursoaslccs/scritp.sh .
+  167  ls
+  168  nano scritp.sh 
+  169  scritp.sh
+  170  sh scritp.sh 
+  171  lb boostrap
+  172  lb bootstrap
+  173  lb chroot
+  174  ls
+  175  chroot
+  176  chroot/
+  177  cd chroot/
+  178  ls
+  179  cd ..
+  180  chroot chroot
+  181  chroot chroot/
+  182  cd ..
+  183  cp -r iso respaldoiso
+  184  lks
+  185  ls
+  186  cd respaldoiso/
+  187  ls
+  188  cd ..
+  189  cd iso/
+  190  ls
+  191  cd ..
+  192   cd iso/
+  193  lb binary
+  194  ls
+  195  ls chroot/boot/vmlinuz
+  196  chroot chroot/
+  197  lb binary
+  198  chroot chroot/
+  199  cd chroot/boot/
+  200  ls
+  201  cp -r /boot/vmlinuz-3.2.0-4-686-pae .
+  202  ls
+  203  cd ..
+  204  cd ..
+  205  lb binary
+  206  cd chroot/boot/
+  207  ls
+  208  cd ..
+  209  cd ..
+  210  cd chroot/boot/
+  211  ls
+  212  cd ..
+  213  cd ..
+  214  cp -r /boot/initrd.img-3.2.0-4-686-pae 
+  215  cp -r /boot/initrd.img-3.2.0-4-686-pae .
+  216  ld
+  217  ls
+  218  rm initrd.img-3.2.0-4-686-pae 
+  219  cd chroot/boot/
+  220  cp -r /boot/initrd.img-3.2.0-4-686-pae .
+  221  ls
+  222  ls /home/usuario/iso/
+  223  cd ..
+  224  cd ..
+  225  ls
+  226  lb binary
+  227  ls
+  228  du sh binary.iso
+  229  du -sh binary.iso
+  230  ls
+  231  aptitude install qemu
+  232  qemu-img create prueba.img 2G
+  233  ls
+  234  ls -la
+  235  du -sh
+  236  du -sh prueba
+  237  du -sh prueba.img 
+  238  qemu -hda prueba.img -cdrom binary.iso -boot d -m 512
+  239  cd ..
+  240  ls
+  241  cp -r respaldoiso respaldoiso3
+  242  ls
+  243  cd respaldoiso
+  244  chroot chroot
+  245  cd ..
+  246  cp -r respaldoiso respaldoisofinal
+  247  cd respaldoiso
+  248  lb binary
+  249  qemu -cdrom binary.iso -boot d -m 512
+  250  cd ..
+  251  cd respaldoisofinal/
+  252  cd .
+  253  ls
+  254  cd ..
+  255  cd respaldoisofinal/
+  256  aptitude install xserver
+  257  aptitude search xserver
+  258  chroot chroot
+  259  cd ..
+  260  cp -r respaldoisofinal respaldoisofinal2
+  261  cd respaldoisofinal
+  262  chroot chroot
+  263  lb binary
+  264  qemu -cdrom binary.iso -boot d -m 512
+  265  chroot chroot
+  266  qemu -cdrom binary.iso -boot d -m 512
+  267  lb binary
+  268  chroot chroot
+  269  qemu -cdrom binary.iso -boot d -m 512
+  270  cd ..
+  271  ls
+  272  mv respaldoisofinal2 /var/www/
+  273  ls /var/www/
+  274  cat
+  275  nano /etc/apt/sources.list
+  276  cd /usr/share/canaima-semilla/
+  277  ls
+  278  cd profiles/
+  279  ls
+  280  cd popular/
+  281  ls
+  282  nano profile.conf 
+  283  cd ..
+  284  ls
+  285  cd ..
+  286  ls
+  287  cd profiles/
+  288  cp -r primera-base prueba
+  289  ls
+  290  cd prueba/
+  291  ls
+  292  nano profile.conf 
+  293  cs-gui
+  294  c-s-gui
+  295  c-s-gui
+  296  top
+  297  ps-aux/grep
+  298  ps -aux | grep c-s-gui
+  299  kill 7465
+  300  ps -aux | grep c-s-gui
+  301  kill -9 7465
+  302  ps -aux | grep c-s-gui
+  303  kill -9 7568
+  304  8023
+  305  ps -aux | grep c-s-gui
+  306  kill -9 8026
+  307  ps -aux | grep c-s-gui
+  308  kill -9 8127
+  309  c-s-gui
+  310  ls
+  311  cd..
+  312  cd 
+  313  ls
+  314  cd /home/usuario/iso/
+  315  ls
+  316  cd config/
+  317  ls
+  318  nano bootstrap 
+  319  nano chroot 
+  320  cd ..
+  321  ls
+  322  cd ..
+  323  ls
+  324  cd iso/
+  325  ls
+  326  cat /etc/apt/sources.list
+  327  cat /etc/apt/sources.list
+  328  clear
+  329  cat /etc/apt/sources.list
+  330  ls
+  331  cd isos
+  332  cd iso2
+  333  cd config/includes.chroot/
+  334  ls
+  335  cd ..
+  336  ls
+  337  cd isos
+  338  mkdir iso10
+  339  cd iso10
+  340  lbconfig
+  341  lb config
+  342  lb build
+  343  cd ..
+  344  cd /home/usuario/
+  345  cd Control/
+  346  cd Cursoaslccs/
+  347  gitpull
+  348  git pull
+  349  nano qemu.txt 
+  350  git add qemu.txt
+  351  git commit -m "subiendo qemu"
+  352  ls /home/usuario/Control/
+  353  mv qemu.txt /home/usuario/Control/CANAIMA/
+  354  cd /home/usuario/Control/CANAIMA/
+  355  git add qemu.txt
+  356  git commit -m "subiendo qemu"
+  357  git push
+  358  git push
+  359  git push
+  360  cd /home/usuario/iso/
+  361  ls
+  362  wget http:/150.188.18.131/res.tar
+  363  wget http://150.188.18.131/res.tar
+  364  main tar
+  365  tar
+  366  tar help
+  367  tar --help
+  368  pwd
+  369  ls
+  370  mv res.tar /home/usuario/
+  371  cd ..
+  372  ls
+  373  mkdir isos
+  374  mv res.tar isos
+  375  cd isos/
+  376  ls
+  377  tar -xvf res.tar
+  378  ls
+  379  cp -r respaldo_isos-5 iso1
+  380  ls
+  381  ls
+  382  cp help
+  383  cp --help
+  384  cp -R Respaldo_isos-5 iso1
+  385  cd iso1/
+  386  chroot chroot
+  387  touch log.txt
+  388  nano log.txt 
+  389  ls
+  390  nano log.txt 
+  391  cd config/
+  392  ls
+  393  nano bootstrap 
+  394  ls
+  395  nano chroot 
+  396  nano binary 
+  397  cd ..
+  398  chroot chroot
+  399  ls
+  400  nano log.txt 
+  401  cd ..
+  402  cp -r iso1 iso2
+  403  cd iso1
+  404  lb binary
+  405  nano /etc/apt/sources.list
+  406  aptitude update
+  407  lb binary
+  408  lb binary_iso
+  409  ls
+  410  cd config/
+  411  ls
+  412  nano bootstrap 
+  413  cd ..
+  414  lb binary_iso
+  415  cd config/
+  416  nano bootstrap 
+  417  cd ..
+  418  cd ..
+  419  rmdir -r iso1
+  420  rmdir iso1
+  421  rm -rf iso1
+  422  cp -r iso2 iso1
+  423  cd iso1
+  424  ls
+  425  nano config/bootstrap 
+  426  lb binary
+  427  cd ..
+  428  rm -rf iso1
+  429  cp -r iso2 iso1
+  430  cd iso1
+  431  ls
+  432  cd ..
+  433  cd ..
+  434  ls
+  435  cd isos/iso1/config/
+  436  ls
+  437  rm bootstrap 
+  438  cd /home/usuario/
+  439  ls
+  440  mv bootstrap /home/usuario/isos/iso1/config/
+  441  cd isos/iso1/config/
+  442  ls
+  443  cd ..
+  444  lb binary
+  445  cd iso2
+  446  ls
+  447  cd isos/
+  448  cp -r iso2 iso3
+  449  cd iso2/config/
+  450  nano bootstrap 
+  451  nano binary
+  452  nano bootstrap 
+  453  nano bootstrap 
+  454  cd ..
+  455  lb binary
+  456  qemu -cdrom binary.iso -boot d -m 1024
+  457  quemu-img create imagen.img 2G
+  458  qemu -hda imagen.img -cdrom binary.iso -boot d -m [B
+  459  qemu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  460  nano config/binary 
+  461  lb binary_iso
+  462  lb binary clean
+  463  lb binary_iso
+  464  cd ..
+  465  ls
+  466  rm -rf iso2
+  467  cp -r iso3 iso2
+  468  cd iso2
+  469  nano config/binary 
+  470  nano config/binary 
+  471  nano config/bootstrap 
+  472  cd config/
+  473  rm bootstrap 
+  474  cp /home/usuario/bootstrap /home/usuario/isos/iso2/config/
+  475  ls
+  476  cd ..
+  477  chroot chroot
+  478  lb binary
+  479  qemu -hda imagen.img -cdrom binary.iso -boot d -m 1024
+  480  quemu-img create imagen.img 2G
+  481  qemu -cdrom binary.iso -boot d -m 1024
+  482  cd live/
+  483  ls
+  484  ls -l
+  485  cp iso2/ iso3 
+  486  cp iso2/ iso3/ 
+  487  cp iso2 iso3
+  488  cp -r iso2 iso3
+  489  history 
+  490  history 
+  491  cd iso2
+  492  ls
+  493  cd config/
+  494  ls
+  495  nano bootstrap 
+  496  nano binary 
+  497  cd ..
+  498  chroot chroot
+  499  apt mirror
+  500  apt-mirror
+  501  ls
+  502  debmirror
+  503  aptitude search mirror
+  504  history
+  505  ls
+  506  ls -la
+  507  cd ..
+  508  ls
+  509  nano examen.txt 
+  510  cd Manuales/
+  511  ls
+  512  cd ..
+  513  cd franciscomartinez/
+  514  ls
+  515  nano examen.txt 
+  516  cd ..
+  517  cd /home/usuario/isos/
+  518  ls
+  519  cd /var/opt/
+  520  ls
+  521  cd Cursoaslccs/franciscomartinez/
+  522  ls
+  523  mkdir canaima-semilla
+  524  ls+
+  525  ls
+  526  cd canaima-semilla/
+  527  ls
+  528  profiles
+  529  cd /usr/share/canaima-semilla/
+  530  ls
+  531  cd profiles/
+  532  ls
+  533  cd ..
+  534  ls
+  535  cp -r profiles/ /var/opt/Cursoaslccs/franciscomartinez/canaima-semilla/
+  536  ls
+  537  cd /var/opt/Cursoaslccs/franciscomartinez/canaima-semilla/
+  538  ls
+  539  cd profiles/
+  540  ls
+  541  cd popular/
+  542  ls
+  543  nano profile.conf 
+  544  ls
+  545  cd ..
+  546  ls
+  547  ls
+  548  cd ..
+  549  ls
+  550  touch pasos.txt
+  551  nano pasos.txt 
+  552  nano pasos.txt 
+  553  nano pasos.txt 
+  554  nano /etc/apt/sources.list
+  555  aptitude update
+  556  source sl
+  557  apt-get source sl
+  558  sl
+  559  aptitude update
+  560  sl
+  561  ls
+  562  mv sl-3.03/ /var/opt/Cursoaslccs/franciscomartinez/sl/
+  563  mv sl_3.03-17.debian.tar.gz sl_3.03-17.dsc sl_3.03.orig.tar.gz  /var/opt/Cursoaslccs/franciscomartinez/sl/
+  564  cd sl
+  565  cd /var/opt/Cursoaslccs/franciscomartinez/sl/
+  566  ls
+  567  cd sl-3.03/
+  568  ls
+  569  sl
+  570  ls
+  571  nano sl.h
+  572  dpkg-buildpackage -us -uc
+  573  sl
+  574  dpkg-source --commit
+  575  dpkg-buildpackage -us -uc
+  576  cd ..
+  577  sl
+  578  ls
+  579  ls -la
+  580  aptitude install sl_3.03-17_i386.deb 
+  581  ls -la
+  582  sl
+  583  apt-get source sl_3.03-17_i386.deb 
+  584* 
+  585  sl_3.03-17_i386.deb 
+  586  aptitude install sl_3.03-17_i386.deb 
+  587  dpkg -i  sl_3.03-17_i386.deb 
+  588  sl
+  589  history
+  590  cd ..
+  591  ls
+  592  history > historialdecomandos.txt
